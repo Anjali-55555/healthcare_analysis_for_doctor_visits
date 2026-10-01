@@ -1,0 +1,39 @@
+{
+  "Logistic Regression": {
+    "acc": 0.7195685670261941,
+    "auc": 0.7280386984585459,
+    "f1": 0.45671641791044776
+  },
+  "Random Forest": {
+    "acc": 0.7357473035439137,
+    "auc": 0.741891155059094,
+    "f1": 0.4714946070878274
+  },
+  "coef": {
+    "freepoor": -0.191,
+    "income": -0.071,
+    "nchronic": 0.088,
+    "health": 0.101,
+    "lchronic": 0.114,
+    "private": 0.12,
+    "freerepat": 0.128,
+    "age": 0.134,
+    "gender": 0.168,
+    "illness": 0.424,
+    "reduced": 0.607
+  },
+  "imp": {
+    "private": 0.012,
+    "freepoor": 0.016,
+    "nchronic": 0.025,
+    "lchronic": 0.033,
+    "freerepat": 0.033,
+    "gender": 0.039,
+    "income": 0.068,
+    "health": 0.082,
+    "age": 0.121,
+    "illness": 0.233,
+    "reduced": 0.338
+  },
+  "poisson_mean_pred": 0.2975384031590865
+}
